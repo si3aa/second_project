@@ -590,7 +590,7 @@ header nav .form i {
   bottom: -30px;
   margin-top: -125px;
   max-width: 100%;
-  height:50%;
+  height: 50%;
 }
 
 @media (max-width: 767px) {
@@ -603,7 +603,7 @@ header nav .form i {
 /* End About Section */
 
 /* Start Stats Section */
-.stats{
+.stats {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
@@ -612,7 +612,7 @@ header nav .form i {
   position: relative;
 }
 
-.stats::before{
+.stats::before {
   content: "";
   position: absolute;
   left: 0;
@@ -641,7 +641,7 @@ header nav .form i {
 }
 
 @media (min-width: 768px) {
-  .stats .container .box {  
+  .stats .container .box {
     flex-basis: 50%;
   }
 }
@@ -649,7 +649,7 @@ header nav .form i {
 @media (min-width: 992px) {
   .stats .container .box {
     flex-basis: 25%;
-  } 
+  }
 }
 
 .stats .container .box i {
@@ -688,19 +688,19 @@ header nav .form i {
 }
 
 @media (min-width: 992px) {
-  .our-skills .container > div {
+  .our-skills .container>div {
     flex-basis: 45%;
   }
 }
 
-.our-skills .container > div > h3 {
+.our-skills .container>div>h3 {
   margin: 0 0 30px;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
 }
 
-.our-skills .container > div > p {
+.our-skills .container>div>p {
   color: var(--pragraph-color);
   line-height: 2;
   text-align: center;
@@ -719,11 +719,13 @@ header nav .form i {
   border-radius: 50%;
   margin-right: 50px;
 }
+
 @media (max-width: 767px) {
   .our-skills .testimonials .content {
     flex-direction: column;
     text-align: center;
   }
+
   .our-skills .testimonials .content img {
     margin: 0 auto 20px;
   }
@@ -806,6 +808,7 @@ header nav .form i {
   right: -8px;
   top: -15px;
 }
+
 /* End Skills Section */
 /* Start Quote Section */
 .quote {
@@ -844,34 +847,40 @@ header nav .form i {
 
 /* End Quote Section */
 /* Start Pricing Section */
-.pricing{
+.pricing {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
-.pricing .plans{
+
+.pricing .plans {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
 }
-.pricing .plans .plan{
+
+.pricing .plans .plan {
   background-color: #fcfcfc;
   text-align: center;
 }
-.pricing .plans .plan .head{
+
+.pricing .plans .plan .head {
   padding: 40px 20px;
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
-.pricing .plans .plan .head h3{
+
+.pricing .plans .plan .head h3 {
   font-weight: normal;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-.pricing .plans .plan .head span{
+
+.pricing .plans .plan .head span {
   font-size: 60px;
   font-weight: bold;
 }
-.pricing .plans .plan .head span::before{
+
+.pricing .plans .plan .head span::before {
   content: "$";
   font-size: 25px;
   position: relative;
@@ -879,23 +888,26 @@ header nav .form i {
   margin-right: 15px;
   font-weight: normal;
 }
-.pricing .plans .plan .head span::after{
+
+.pricing .plans .plan .head span::after {
   content: "/Mo";
   font-size: 25px;
   position: relative;
   right: -15px;
   font-weight: normal;
 }
-.pricing .plans .plan ul{
+
+.pricing .plans .plan ul {
   border-bottom: 1px solid var(--main-color);
 
 }
 
-.pricing .plans .plan ul li{
+.pricing .plans .plan ul li {
   padding: 20px;
   position: relative;
 }
-.pricing .plans .plan ul li:not(:last-child)::after{
+
+.pricing .plans .plan ul li:not(:last-child)::after {
   content: "";
   width: 140px;
   height: 1px;
@@ -905,7 +917,8 @@ header nav .form i {
   transform: translateX(-50%);
   bottom: 0;
 }
-.pricing .plans .plan .foot a{
+
+.pricing .plans .plan .foot a {
   display: block;
   padding: 20px;
   text-decoration: none;
@@ -915,13 +928,15 @@ header nav .form i {
   font-weight: bold;
   margin: 30px auto;
 }
-.pricing .contact-text{
+
+.pricing .contact-text {
   font-size: 20px;
   text-align: center;
   margin: 50px auto 20px;
   font-weight: bold;
 }
-.pricing .contact-link{
+
+.pricing .contact-link {
   display: block;
   width: fit-content;
   margin: 20px auto;
@@ -935,7 +950,7 @@ header nav .form i {
 /* End Pricing Section */
 
 /* Start Subscribe Section */
-.subscribe{
+.subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-image: url("/images/email.jpg");
@@ -943,7 +958,8 @@ header nav .form i {
   position: relative;
   color: white;
 }
-.subscribe::before{
+
+.subscribe::before {
   content: "";
   position: absolute;
   left: 0;
@@ -952,29 +968,34 @@ header nav .form i {
   height: 100%;
   background-color: rgb(0 0 0 / 50%);
 }
-.subscribe .container{
+
+.subscribe .container {
   position: relative;
   display: flex;
   align-items: center;
 }
+
 @media (max-width: 991px) {
   .subscribe .container {
     flex-direction: column;
   }
 }
-.subscribe form{
+
+.subscribe form {
   display: flex;
   position: relative;
   width: 500px;
   max-width: 100%;
 }
-.subscribe form i{
+
+.subscribe form i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 25px;
 }
-.subscribe form input[type="email"]{
+
+.subscribe form input[type="email"] {
   border: 1px solid white;
   border-right: none;
   background: none;
@@ -982,7 +1003,8 @@ header nav .form i {
   caret-color: var(--main-color);
   width: calc(100% - 130px);
 }
-.subscribe form input[type="submit"]{
+
+.subscribe form input[type="submit"] {
   width: 130px;
   background-color: var(--main-color);
   color: white;
@@ -991,22 +1013,124 @@ header nav .form i {
   border-left: none;
   text-transform: uppercase;
 }
+
 .subscribe form input[type="email"]:focus,
-.subscribe form input[type="submit"]:focus{
+.subscribe form input[type="submit"]:focus {
   outline: none;
 }
-.subscribe form ::placeholder{
+
+.subscribe form ::placeholder {
   color: white;
 }
-.subscribe p{
+
+.subscribe p {
   line-height: 2;
   margin-left: 50px;
-}       
+}
+
 @media (max-width: 991px) {
-  .subscribe p{
+  .subscribe p {
     margin: 30px 0 0;
   }
 }
+
 /* End Subscribe Section */
+/* Start Contact Section */
+.contact {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
 
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
 
+@media (max-width: 767px) {
+  .contact .content {
+    flex-direction: column;
+  }
+}
+
+.contact .content form {
+  flex-basis: 70%;
+}
+
+.contact .content form .main-input {
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact .content form .main-input:focus {
+  outline: none;
+}
+
+.contact .content form textarea.main-input {
+  height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .contact .content form input[type="submit"] {
+    margin: 0 auto;
+  }
+}
+
+.contact .content .info {
+  flex-basis: 25%;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info {
+    order: -1;
+    text-align: center;
+  }
+}
+
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact .content .info .phone {
+  display: block;
+  color: var(--pragraph-color);
+  margin-bottom: 10px;
+}
+
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
+
+.contact .content .info address {
+  color: var(--pragraph-color);
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .contact .content .info address {
+    margin-bottom: 40px;
+  }
+}
+
+/* End Contact Section */
